@@ -30,5 +30,9 @@ public class TestDataBuild {	// POJO class init
 		
 		return ap;
 	}
+	
+	public String deletePlacePayload(String placeId) {
+		return "{\r\n    \"place_id\":\""+placeId+"\"\r\n}"; // JSON Escape of Delete Place Payload		
+	}
 
 }

@@ -27,8 +27,8 @@ Body:
     "language": "English - EN"
 }
 HTTP/1.1 200 OK
-Date: Thu, 14 Apr 2022 09:01:45 GMT
-Server: Apache/2.4.18 (Ubuntu)
+Date: Tue, 19 Apr 2022 06:27:48 GMT
+Server: Apache/2.4.41 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
@@ -40,8 +40,76 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "3e78dac1f18479e7002edec910de4303",
+    "place_id": "c07b2d2148f460da78870bc4152dea86",
     "scope": "APP",
-    "reference": "444425385fb978278b82045048538406444425385fb978278b82045048538406",
-    "id": "444425385fb978278b82045048538406"
+    "reference": "894ae66a62c539e35627727c814ae7f4894ae66a62c539e35627727c814ae7f4",
+    "id": "894ae66a62c539e35627727c814ae7f4"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=c07b2d2148f460da78870bc4152dea86
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=c07b2d2148f460da78870bc4152dea86
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 19 Apr 2022 06:27:50 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 255
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-43.383494",
+        "longitude": "43.427362"
+    },
+    "accuracy": "50",
+    "name": "Aziiz House",
+    "phone_number": "(+91) 123 456 6789",
+    "address": "23 Sylvia Road, Illinois",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "English - EN"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "c07b2d2148f460da78870bc4152dea86"
+}
+HTTP/1.1 200 OK
+Date: Tue, 19 Apr 2022 06:27:50 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
 }
